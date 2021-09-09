@@ -14,4 +14,3 @@ runs:
   image: 'docker://offbi/pre-commit-dbt:v1.0.0'
   args:
     - ${{ inputs.args }}
-    - --files ${{ inputs.files }}
